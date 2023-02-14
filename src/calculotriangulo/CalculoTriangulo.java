@@ -7,7 +7,9 @@ public class CalculoTriangulo {
         
       triangulo triangulo = new triangulo();
         
-        System.out.println(triangulo.tipoTriangulo(3, 5, 7));
+        System.err.println(triangulo.calcular(2, 5));
+      
+        System.out.println(triangulo.tipoTriangulo(5, 5, 1));
         
     }
 
