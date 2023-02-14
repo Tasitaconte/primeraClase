@@ -8,7 +8,7 @@ public class CalculoTriangulo {
     public static void main(String[] args) {
 
         //instancias de la clase triangulo y uso de metodos
-        triangulo triangulo = new triangulo();
+        triangulo triangulo = new triangulo(5, 5);
 
         System.out.println(triangulo.calcular(2, 5));
 
