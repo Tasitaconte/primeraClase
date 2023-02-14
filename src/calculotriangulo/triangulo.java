@@ -4,9 +4,13 @@ public class triangulo {
     
     float tBase;
     float altura;
+
+    triangulo() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
-    public float calcular(float base, float altura) {
-        return base*altura/2;
+    public float calcular(double base, double altura) {
+        return (float) (base*altura/2);
     }   
     
     public String tipoTriangulo(int primerlado, int segundolado, int tercerlado){

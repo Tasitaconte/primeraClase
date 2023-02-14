@@ -1,17 +1,19 @@
 package calculotriangulo;
+
 import calculotriangulo.triangulo;
+import perro.perro;
 
 public class CalculoTriangulo {
 
     public static void main(String[] args) {
         
-      triangulo triangulo = new triangulo();
-        
-        System.err.println(triangulo.calcular(2, 5));
-      
-        System.out.println(triangulo.tipoTriangulo(5, 5, 1));
-        
+       perro perro = new perro("ringo", "aleman", 7, true);
+       
+       perro.ladrar();
+       
+        System.out.println(perro.getNombre());
+        System.out.println(perro.getRaza());
+       
     }
 
- 
 }
